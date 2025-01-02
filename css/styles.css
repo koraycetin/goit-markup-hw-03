@@ -1,0 +1,95 @@
+body {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1440px;
+    border: 1px solid #000;
+}
+h1, h2, h3, h4, h5, h6, ul, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+
+/* Header */
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.header-container {
+    display: flex;
+}
+.top-line {
+    background-color: #fff;
+}
+.header-nav-logo {
+    margin-right: 76px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.logo-studio {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+    text-decoration: none;
+}
+header nav .nav-menu:hover,
+header nav .nav-menu:active,
+header nav .nav-menu:focus {
+    color: #404bbf;
+}
+.header-nav-ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.address-ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.address-menu {
+    font-style: normal;
+    margin-left: auto;
+}
+.address-mail-number {
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+header .address-menu .address-mail-number:hover,
+header .address-menu .address-mail-number:focus,
+header .address-menu .address-mail-number: :active {
+    color: #404bbf;
+}
+
+/* Header-Finish */
